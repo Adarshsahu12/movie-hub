@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+   <script src="moviepage.js" defer></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="moviepage.css">
+    <title>Movie Hub</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo"><img src="movie hub.png" alt=""></a>
+            <div class="end_bx">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li>Category <i class="fas fa-angle-down"></i>
+                        <div class="list">
+                            <a href="#">Trends Now</a>
+                            <a href="#">Popular</a>
+                            <a href="#">Prefrenes</a>
+                            <a href="#">Recently Added</a>
+                            
+                        </div>
+                    </li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder="Search movies..." id="search">
+                    <i class="fas fa-search" id="search_icon"></i>
+                    <div class="search_bx2">
+                         <a href="#">
+                            <img src="mimg/a perfact.jpg" alt="">
+                            <div class="content2">
+                                <h6>A Perfact</h6>
+                                <p>2018</p>
+                            </div>
+                        </a> 
+                    </div>
+                </div>
+                <div class="bell">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="user">
+                    <img src="img/user.png" alt="Jahid Khan" title="jahid khan">
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h6>Duration: <span id="header_dur">1h 47min</span></h6>
+            <h3 id="header_gen"><i class="fas fa-star"></i>6.5
+                <span>Action / Adventure / Sci-Fi</span>
+            </h3>
+            <h1 id="header_title">Rampage</h1>
+            <p id="header_pra">From Wikipedia, the free encyclopedia Rampage is a series of video games released by Midway (1986–2009) and Warner Bros. Interactive Entertainment (2009–present) for the arcade and various consoles. The basic premise of the games is that,
+                due to experiment-related accidentd:\Projects\amisha project\project (2)\project\index.htmls, the player controls a human transformed into a giant monster.</p>
+            <div class="btns">
+                <a href="#video"> <button><i class="fas fa-play" id="play_btn"></i> WATCH</button></a>
+                <button><i class="fas fa-plus"></i> ADD LIST</button>
+            </div>
+        </div>
+        <div class="slider_btns">
+            <h6 class="slider"></h6>
+            <h6 class="slider"></h6>
+            <h6 class="slider"></h6>
+        </div>
+    </header>
+    <!-- trending box start  -->
+    <div class="tranding_bx">
+        <li><a href="Harry Potter  01 The Sorcerer's Stone (2001) 'Vakil Sahab'.mkv" class="active"><i class="fas fa-angle-double-up"></i> Trends Now <span></span></a></li>
+        <li><a href="Harry Potter  01 The Sorcerer's Stone (2001) 'Vakil Sahab'.mkv"><i class="fas fa-fire"></i> Popular <span></span></a></li>
+        <li><a href="Harry Potter  01 The Sorcerer's Stone (2001) 'Vakil Sahab'.mkv"><i class="fas fa-star"></i> Prefrenes <span></span></a></li>
+        <li><a href="Harry Potter  01 The Sorcerer's Stone (2001) 'Vakil Sahab'.mkv"><i class="fas fa-plus"></i> Recently Added <span></span></a></li>
+    </div>
+
+   
+
+    <!-- movies box strat  -->
+    <div class="movie_bx_1" id="mvoes_bx_1">
+        <button id="left_scroll1"> <i class="fas fa-angle-down" ></i></button>
+        <button id="right_scroll1"> <i class="fas fa-angle-down" ></i></button>
+        <div class="movie_bxx" id="action_bx"></div>
+        <div class="movie_bxx" id="crime_bx"></div>
+        <div class="movie_bxx" id="drama_bx"></div>
+    </div>
+    <!-- movies box end  -->
+    <!-- video box start  -->
+  <div class="video_bx">
+    <video src="Mobile.mp4" id="video" controls></video>
+
+   
+
+     
+    <h4 class="title_video">Rampage trailer hd coming soon</h4>
+    <span class="watching"><i class="fas fa-eye"></i> Watching</span>
+    <div class="heart_pluse">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-plus"></i>
+    </div>
+    <div class="video_list">
+      <img src="img/121213.jpg" alt="" class="video_1">
+      <img src="img/121214.jpg" alt="" class="video_1">
+      <img src="img/121215.jpg" alt="" class="video_1">
+    </div>
+  </div>
+  <!-- video box end  -->
+
+    <!-- trending box2 start  -->
+    <div class="tranding_bx" style="margin-top: 20px;">
+        <li><a href="#" class="active"><i class="fas fa-photo-video"></i> Movies <span></span></a></li>
+        <li><a href="#"><i class="fas fa-film"></i> Series <span></span></a></li>
+        <li><a href="#"><i class="fas fa-check"></i> Original Series <span></span></a></li>
+        <li><a href="#"> Tralier <span></span></a></li>
+    </div>
+    <div class="cato_bx cato_bx2">
+        <div class="left_cato">
+            
+
+            
+        </div>
+        <div class="right_cato">
+            <i class="fas fa-star"></i>
+            <input type="range" name="" id="change_input" min="4.2" max="9.9">
+            <span>7.0</span>
+        </div>
+    </div>
+
+    <div class="movie_bx_1 movie_bx_2">
+        <div class="all box2_actives" id="all"></div>
+        <div class="latest box2_actives" id="latest"></div>
+        <div class="year" id="year_2022"></div>
+        <div class="year" id="year_2021"></div>
+        <div class="year" id="year_2020"></div>
+        <div class="letter" id="letter_a"></div>
+        <div class="letter" id="letter_b"></div>
+        <div class="letter" id="letter_t"></div>
+        <div class="rate_change" id="rate4"></div>
+        <div class="rate_change" id="rate8"></div>
+         <div class="card">
+            <a href="#">
+                <img src="mimg/abcd.jpg" alt="">
+                <div class="content">
+                    <h5>ABCD</h5>
+                    <h6>
+                        <span>2017</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>8.3</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="mimg/a perfact.jpg" alt="">
+                <div class="content">
+                    <h5>A Perfact</h5>
+                    <h6>
+                        <span>2020</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>9.2</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="mimg/venom2.webp" alt="">
+                <div class="content">
+                    <h5>Venom 2</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images (7).jpg" alt="">
+                <div class="content">
+                    <h5>Guardians of galaxy</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images (5).jpg" alt="">
+                <div class="content">
+                    <h5>Sherlock Homes</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images (6).jpg" alt="">
+                <div class="content">
+                    <h5>Ben 10</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images.jpg" alt="">
+                <div class="content">
+                    <h5>Incpection</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images (4).jpg" alt="">
+                <div class="content">
+                    <h5>Space</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="download (4).jpg" alt="">
+                <div class="content">
+                    <h5>Total Recall</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images (1).jpg" alt="">
+                <div class="content">
+                    <h5>The Passenger</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="download (6).jpg" alt="">
+                <div class="content">
+                    <h5>Driving into Darkness</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images (3).jpg" alt="">
+                <div class="content">
+                    <h5>Ghost Rider</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="download (5).jpg" alt="">
+                <div class="content">
+                    <h5>Avatar</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="download.jpg" alt="">
+                <div class="content">
+                    <h5>Iron Man 3</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="images (2).jpg" alt="">
+                <div class="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                    <h5>Harry Potter</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="download (3).jpg" alt="">
+                <div class="content">
+                    <h5>Gold</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="download (2).jpg" alt="">
+                <div class="content">
+                    <h5>The Run Down</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="Harry Potter and the Deathly Hallows  08  -Part-2 (2011) 'Vakil Sahab'.mkv">
+                <img src="download (1).jpg" alt="">
+                <div class="content">
+                    <h5>Thor</h5>
+                    <h6>
+                        <span>2018</span>
+                        <div class="rate">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-star"></i>
+                            <h6>6.5</h6>
+                        </div>
+                    </h6>
+                </div>
+            </a>
+        </div> 
+    </div>
+    <script src="moviepage.js"></script>
+</body> 
+
+</html>

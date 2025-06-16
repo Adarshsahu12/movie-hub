@@ -1,0 +1,14 @@
+{
+  "name": "movie-hub",
+  "version": "1.0.0",
+  "description": "Welcome to my Netflix Clone project! In this project, I have recreated the popular streaming service Netflix using HTML, CSS, and Vanilla JS. With this clone, you can enjoy the same user experience and design as the original website, but with the added bonus of building it yourself!",
+  "main": "code.js",
+  "scripts": {
+   "dev": "node code.js"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
